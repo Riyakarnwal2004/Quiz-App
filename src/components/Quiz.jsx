@@ -48,7 +48,7 @@ const Quiz = ({ onFinish }) => {
   const current = shuffled[currentIndex];
 
   return (
-    <div className="sm:max-w-xl sm:mx-auto p-6 bg-white rounded-xl shadow-md sm:space-y-6 m-6 space-y-2">
+    <div className="max-w-xl sm:mx-auto p-6 bg-white rounded-xl shadow-md sm:space-y-6 m-6 space-y-2">
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-bold text-gray-700">Question {currentIndex + 1} / {maxQuestions}</h2>
         <div className="text-red-600 font-semibold text-lg">

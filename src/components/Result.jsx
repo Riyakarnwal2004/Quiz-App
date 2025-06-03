@@ -7,9 +7,9 @@ const Result = ({ score, answers }) => {
   const percentage = Math.round((score / total) * 100);
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-white rounded-xl shadow-md space-y-6">
+    <div className="sm:w-2xl sm:mx-auto sm:p-6 bg-white sm:rounded-xl sm:shadow-md sm:space-y-6 sm:mt-8 sm:text-xl  mt-4 rounded-xl p-4 m-4 ">
       <div className="flex flex-col items-center">
-        <h2 className="text-3xl font-bold text-blue-600 mb-4">Quiz Completed! 🎉</h2>
+        <h2 className="sm:text-3xl text-xl font-bold text-blue-600 mb-4">Quiz Completed! 🎉</h2>
         <div className="w-40 h-40 mb-4">
           <CircularProgressbar
             value={percentage}
@@ -29,7 +29,7 @@ const Result = ({ score, answers }) => {
 
       <div>
         <h3 className="text-2xl font-semibold mb-4 border-b pb-2 text-gray-800">Answer Summary</h3>
-        <ul className="space-y-4">
+        <ul className="space-y-4 text-xl">
           {answers.map((a, i) => (
             <li
               key={i}

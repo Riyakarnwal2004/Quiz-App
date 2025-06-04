@@ -24,7 +24,7 @@
 * Tailwind CSS
 
   # demo 
-https://quiz-app-khaki-five.vercel.app/
+* [Live Demo](https://quiz-app-khaki-five.vercel.app/)
 
 
 
